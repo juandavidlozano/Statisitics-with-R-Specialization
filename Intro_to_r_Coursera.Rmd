@@ -1,14 +1,13 @@
 ---
 title: "Introduction to R and RStudio"
-output:
-  html_document:
-    df_print: paged
+output:html_document
+author: "Juan Lozano"
+date: "July 9, 2018"
+
+   
 ---
 
-<div id="instructions">
-Complete all **Exercises**, and submit answers to **Questions** on the Coursera 
-platform.
-</div>
+
 
 The goal of this lab is to introduce you to R and RStudio, which you'll be using
 throughout the course both to learn the statistical concepts discussed in the 
@@ -288,8 +287,8 @@ that of girls, R will compute all sums simultaneously.
 arbuthnot$boys + arbuthnot$girls
 ```
 
-What you will see are 82 numbers (in that packed display, because we aren‚???Tt 
-looking at a data frame here), each one representing the sum we‚???Tre after. Take a
+What you will see are 82 numbers (in that packed display, because we aren√¢???Tt 
+looking at a data frame here), each one representing the sum we√¢???Tre after. Take a
 look at a few of them and verify that they are right.
 
 ### Adding a new variable to the data frame
