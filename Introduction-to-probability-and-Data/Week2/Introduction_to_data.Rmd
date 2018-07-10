@@ -419,7 +419,7 @@ nycflights %>%
   arrange(desc(ot_dep_rate))
 ```
 
-**The summarise step is telling R to count up how many records of the currently found group are on time - sum(dep_type == "on time‚???ù) - and divide that result by the total number of elements in the currently found group - n() - to get a proportion, then to store the answer in a new variable called ot_dep_rate.**
+**The summarise step is telling R to count up how many records of the currently found group are on time - sum(dep_type == "on time√¢???¬ù) - and divide that result by the total number of elements in the currently found group - n() - to get a proportion, then to store the answer in a new variable called ot_dep_rate.**
 
 7.  If you were selecting an airport simply based on on time departure percentage, 
 which NYC airport would you choose to fly out of? 
@@ -486,7 +486,8 @@ about the relationship between average speed and distance.
 
 ```{r avg-speed-dist-scatter}
 # type your code for Question 9 here, and Knit
-plot(x = nycflights$avg_speed, y = nycflights$distance, xlab = "Average Speed", ylab = "Distance")
+ggplot(nycflights, aes(x=avg_speed, y=distance)) +
+  geom_point()
 
 ```
 
