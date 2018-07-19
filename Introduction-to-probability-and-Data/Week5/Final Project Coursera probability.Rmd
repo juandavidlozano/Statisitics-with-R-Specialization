@@ -2,7 +2,7 @@
 title: "Exploring the BRFSS data"
 author: "Juan Lozano"
 date: "July 10, 2018"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ## Setup
